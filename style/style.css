@@ -1,0 +1,484 @@
+/* обнуление */
+body {
+    overflow-x: hidden;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+input {
+    outline:none;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    width: 80.56%;
+}
+
+/* header */
+.header {
+    margin-top: 40px;
+    width: 100%;
+    height: 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo { 
+    width: 9.4%;
+    height: 29px;
+}
+.name-logo {
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+}
+.promise-1 {
+    width: 16.21%;
+}
+.menu {
+    width: 35.26%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a {
+    color: #1A1A1A;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.promise-2 {
+    width: 11.64%;
+}
+.number-block {
+    width: 10.43%;
+}
+.number {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.promise-3 {
+    width: 4.48%;
+}
+.header-button-block {
+    width: 12.24%;
+}
+.header-button {
+    width: 100%;
+    height: 30px;
+    background-color: #1D4859;
+    border: 0px solid #1D4859;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+/* home */
+.home {
+    display: flex;
+    width: 100%;
+    margin-top: 39px;
+}
+.home-info-form {
+    margin-top: 60px;
+    width: 50%;
+}
+.home-image {
+    width: 50%;
+    padding-left: 3%;
+}
+.home-text-1 {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #1D4859;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.home-text-2 {
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+.home-text-3 {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 2px;
+}
+.home-form {
+    margin-top: 44px;
+}
+.home-text-4 {
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    line-height: 2px;
+}
+.home-form-block {
+    display: flex;
+}
+.home-input {
+    width: 41.36%;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #325A73;
+    border-radius: 5px;
+    padding: 10px;
+}
+.home-button {
+    width: 24.69%;
+    height: 35px;
+    margin-left: 30px;
+    background: #325A73;
+    border: 1px solid #325A73;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+/* about us */
+.about-us {
+    width: 100%;
+    height: 391px; 
+    /* height: 348px; */
+}
+.decoration-background-1 {
+    width: 100vw;
+    height: 391px;
+    margin-top: -43px;
+    background: #42ACD6;
+    position: absolute;
+    left: 0;
+    z-index: -2;
+}
+.name-group {
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+.about-us-name {
+ margin-top: -50px;
+}
+.about-us-text-1 {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+.about-us-text-2 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+/* services */
+.services {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.services-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.services-discription {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #0B0B0B;
+}
+.services-galery {
+    width: 83.88%;
+    display: flex;
+}
+.first-prod {
+    width: 50%;
+    padding-right: 1.7%;
+}
+.services-name-1 {
+    margin-top: 23px;
+}
+.second-prod {
+    width: 50%;
+    padding-left: 1.7%;
+}
+.services-name-2 {
+    margin-top: 100px;
+}
+.name-services {
+    color: #0E32AD;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+.services-price-2 {
+    margin-bottom: 33px;
+}
+.services-text {
+    margin-top: 11px;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #0B0B0B;
+}
+.price-services {
+    text-align: end;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #0D219A;
+}
+
+
+
+
+
+
+
+
+/* projects */
+.projects {
+    width: 100%;
+}
+.project-wrapper {
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.project-left-arrow {
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.left-arrow {
+    position: absolute;
+    left: 14%;
+}
+.project-right-arrow {
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.right-arrow {
+    position: absolute;
+    right: 14%;
+}
+.project-galery {
+    width: 86%;
+    display: flex;
+}
+.project-galery-image {
+    width: 59%; 
+    
+}
+.project-image-shadow {
+    -webkit-box-shadow: 0px 0px 24px 2px rgba(34, 60, 80, 0.43);
+    -moz-box-shadow: 0px 0px 24px 2px rgba(34, 60, 80, 0.43);
+    box-shadow: 0px 0px 24px 2px rgba(34, 60, 80, 0.43);
+    border-radius: 8px;
+}
+.project-galery-text {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.galery-name {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+}
+.galery-text-1 {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+.galery-text-2 {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+/* work together */
+.work-together {
+    margin-top: 68px;
+    width: 100%;
+    height: 394px;
+}
+.decoration-background-2 {
+    width: 100vw;
+    height: 394px;
+    background: #061929;
+    position: absolute;
+    left: 0;
+    z-index: -2;
+}
+.work-together-name-group {
+    padding-top: 40px;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.work-together-text {
+    padding-top: 14px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+.work-together-form {
+    margin-top: 25px;  
+}
+.work-together-button {
+    width: 82.93%;
+    display: flex;
+    justify-content: space-between;
+}
+.together-button-styles {
+    width: 17.5%;
+    height: 30px;
+    border: 0.5px solid #7392A9;
+    border-radius: 1px;
+    color: #7392A9;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    background: #0F252E;
+}
+.work-together-name-phone {
+    margin-top: 30px;
+    width: 48.71%;
+    display: flex;
+    justify-content: space-between;
+}
+.form-name-phone-styles {
+    width: 47.43%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    padding-left: 1px;
+    padding-top: 25px;
+    height: 50px;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+.work-together-name-phone input::placeholder {
+    transform: translateY(-15px);
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+.together-button-accept {
+    margin-top: 42px;
+    width: 14.48%;
+    height: 33px;
+    background: #FFED00;
+    color: #061929;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    border: 1px solid #FFED00;
+}
+
+
+
+
+
+
+
+
+/* contacts */
+.contacts {
+    margin-top: 48px;
+    width: 100%;
+    height: 394px;
+}
+.contacts-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-text-block {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-tg-block {
+    width: 19.5%;
+}
+.block-tg-name {
+    display: flex;
+}
+.contacts-name-tg-margin {
+    margin-bottom: 0;
+    margin-left: 10px;
+}
